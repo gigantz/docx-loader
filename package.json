@@ -14,10 +14,15 @@
   },
   "author": "Orkhan Jafarov",
   "license": "ISC",
-  "devDependencies": {
-    "loader-utils": "^1.2.3"
-  },
   "dependencies": {
+    "loader-utils": "^1.2.3",
     "mammoth": "^1.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigantz/docx-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gigantz/docx-loader/issues"
   }
 }
