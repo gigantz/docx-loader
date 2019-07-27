@@ -19,5 +19,12 @@
   },
   "dependencies": {
     "mammoth": "^1.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigantz/docx-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gigantz/docx-loader/issues"
   }
 }
