@@ -14,7 +14,7 @@ or
 
 #
 
-### Add it in your webpac config file
+### Add it in your webpack config file
 
 ```javascript
 {
