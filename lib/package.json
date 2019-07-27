@@ -1,0 +1,28 @@
+{
+  "name": "docx-loader",
+  "version": "1.0.4",
+  "description": "Word document to raw html loader for Webpack",
+  "main": "lib/index.js",
+  "keywords": [
+    "webpack",
+    "docx-loader",
+    "word-document"
+  ],
+  "scripts": {
+    "npm:patch": "npm version patch && cp ./package.json ./lib/package.json && cp ./README.md ./lib/README.md",
+    "npm:publish": "cd ./lib && npm publish"
+  },
+  "author": "Orkhan Jafarov",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^1.2.3",
+    "mammoth": "^1.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigantz/docx-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gigantz/docx-loader/issues"
+  }
+}
