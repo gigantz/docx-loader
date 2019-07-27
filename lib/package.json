@@ -1,6 +1,6 @@
 {
   "name": "docx-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Word document to raw html loader for Webpack",
   "main": "lib/index.js",
   "keywords": [
@@ -9,7 +9,7 @@
     "word-document"
   ],
   "scripts": {
-    "npm:patch": "npm version patch && cp ./package.json ./lib/package.json",
+    "npm:patch": "npm version patch && cp ./package.json ./lib/package.json && cp ./README.md ./lib/README.md",
     "npm:publish": "cd ./lib && npm publish"
   },
   "author": "Orkhan Jafarov",
