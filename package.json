@@ -1,6 +1,6 @@
 {
   "name": "docx-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Word document to raw html loader for Webpack",
   "main": "lib/index.js",
   "keywords": [
